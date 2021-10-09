@@ -1,0 +1,11 @@
+Three sides of a triangle are given, we are to check whether the triangle is:
+
+-->An Equilateral triangle( All the sides are same)
+
+-->An Isosceles triangle (Any two sides are same)
+
+-->A Scalene triangle(All the sides are different)
+
+Input: 1 2 3
+
+Output: The triangle is Scalene in nature
