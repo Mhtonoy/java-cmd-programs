@@ -1,5 +1,5 @@
 /**
- * Find out prime numbers in a given range
+ * Find out prime numbers in a given range taken as user input
  */
 
 import java.util.*;
@@ -10,35 +10,7 @@ public class PrimeNumber01{
         int startNumber = sc.nextInt();
         int endNumber = sc.nextInt();
 
-        boolean flag = true;
-
-        System.out.print("The prime Numbers are: ");
-
-        for(int i=startNumber; i<=endNumber; i++){
-
-            if(i <= 1){
-                flag = false;
-            }
-
-            else if(i == 2){
-                flag = true;
-            }
-            else{
-                for(int j=2; j<=i/2; j++){
-                    if(i%j == 0){
-                        flag = false;
-                        break;
-                    }
-                }
-                
-            }
-            if(flag){
-                System.out.print(i + " ");
-            }
-
-            flag = true;
-
-        }
+        
         sc.close();
     }
 }
